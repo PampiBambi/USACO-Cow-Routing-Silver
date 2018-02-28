@@ -35,7 +35,7 @@ public class CowRouting {
     						matrix[(int)i[counter]][(int)i[j]] = input.get(i); 
     						numFlights[(int)i[counter]][(int)i[j]] = numberFlights; 
     					}
-    					else if (matrix[(int)i[counter]][(int)i[j]] == input.get(i))
+    					else if (matrix[(int)i[counter]][(int)i[j]] == input.get(i)) 
     						numFlights[(int)i[counter]][(int)i[j]] = Math.min(numberFlights, numFlights[(int)i[counter]][(int)i[j]]); 
     					numberFlights ++; 
     				}
